@@ -5,6 +5,8 @@
 		<title>Thames Valley Anglers Association</title>
 		<link href="css/reset.css" rel="stylesheet" type="text/css">
 		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	</head>
 
 	<body>
@@ -12,7 +14,7 @@
 		<section id="siteContainer"> <h2 class="hidden">Header</h2>
 			<header id="mainHeader">
 				<div id="logo">
-					<img src="images/traa_logo.svg" alt="TRAA Logo">
+					<a href="index.html"><img src="images/traa_logo.svg" alt="TRAA Logo"></a>
 				</div>
 					<nav id="mainNav">
 						<h2 class="hidden">Main Navigation</h2>
@@ -33,38 +35,44 @@
 
 			<section id="contactUs"> <h2 class="hidden">Contact Us</h2>
 				<div id="contactTitle">
+					<p>Contact Us</p>
 				</div>
 				<div id="fullSeperator">
 				</div>
 				<div id="contactTraa">
+					<p>There's a bunch of ways to get in touch with the TRAA</p>
 				</div>
 				<div id="contactText">
+					<p>There's a bunch of ways to get in touch with the TRAA.<br>
+						If you're with a like-minded organization or group looking for more information on the TRAA and its activities or ...<br>
+						if you're an individual who would like to become involved with the activities undertaken by the TRAA ...<br>
+						<span style="font-weight:bold; font-size:25px;">the TRAA would like to hear from you.</span></p>
 				</div>
 				<div id="fullSeperator">
 				</div>
 			</section>
 
 			<section id="contactArea"> <h2 class="hidden">Contact Form and Map</h2>
-				<div id="form">
-					<div id="fName">
-					</div>
-					<div id="lName">
-					</div>
-					<div id="address">
-					</div>
-					<div id="address2">
-					</div>
-					<div id="city">
-					</div>
-					<div id="province">
-					</div>
-					<div id="postalcode">
-					</div>
-					<div id="country">
-					</div>
-					<div id="submit">
-					</div>
-				</div>
+				<form id="form">
+					<input id="fName" type="text" name="firstName" placeholder="First Name">
+				</input>
+					<input id="lName" type="text" name="lastName" placeholder="Last Name">
+					</input>
+					<input id="address" type="text" name="address" placeholder="Address">
+					</input>
+					<input id="address2" type="text" name="address2" placeholder="Address 2">
+					</input>
+					<input id="city" type="text" name="city" placeholder="City">
+					</input>
+					<input id="province" type="text" name="province" placeholder="Province">
+					</input>
+					<input id="postalcode" type="text" name="postalcode" placeholder="Postal Code">
+					</input>
+					<input id="country" type="text" name="country" placeholder="Country">
+					</input>
+					<input id="submit" type="submit" name="submit">
+				</input>
+				</form>
 				<div id="mapContainer">
 					<div id="mapText">
 					</div>
@@ -112,7 +120,7 @@
 
 			<div id="fishAnimation">
 			</div>
-			<div id="fullSeperator">
+			<div id="bottomBar">
 			</div>
 		</section>
 		<script src="js/main.js"></script>
