@@ -184,6 +184,7 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	margin-bottom: 20px;
 }
 
+
 #contentBreak{
 	height: 1px;
 	margin-top: 20px;
@@ -192,6 +193,8 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	width: 80%;
 	margin: 0 auto;
 }
+
+
 
 #bottomBar{
 	width: 100%;
@@ -202,7 +205,6 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 #fishAnimation{
 	width: 270px;
 	height: 50px;
-	background-color: black;
 	margin: 0 auto;
 	margin-bottom: 20px;
 }
