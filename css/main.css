@@ -5,39 +5,124 @@
 	display: none;
 }
 
-#siteContainer{
-	width: 960px;
-	background-color: grey;
-	margin: 0 auto;
-	padding-right: 20px;
-	padding-left: 20px;
-	padding-top: 20px;
-
+body, html{
+	height: 100%;
+	margin: 0;
+	padding: 0;
 
 }
+a{
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+}
+#siteContainer{
+	width: 1280px;
+	background-color: #dee6b6;
+	margin: 0 auto;
+}
+
 #mainHeader{
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;
+	background-color: #bcd4b9;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 #logo{
+	margin-left: 20px;
 	height: 130px;
 	width: 130px;
-	background-color: black;
-	margin-left: 110px;
-	margin-top: 30px;
-	margin-bottom: 20px;
-
+	display: flex;
+	flex-direction: row;
 }
+
 #mainNav{
 	margin-left: auto;
-	width: 515px;
-	height: 45px;
-	background-color: black;
-	margin-top: 70px;
-	margin-right: 65px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 60px;
+}
 
+#searchForm{
+	margin-bottom: 20px;
+	margin-left: auto;
+}
+
+#searchForm input{
+	width: 150px;
+	padding: 6px 15px 6px 35px;
+	border: 1px solid #d1d1d1;
+	color: white;
+	background-color: #88a456;
+	border-radius: 20px;
+	text-shadow: 0 2px 3px rgba(0,0,0,.1);
+	box-shadow: 0 1px 3px rgba(0,0,0.15) inset;
+}
+
+#mainNav ul{
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li a{
+	display: block;
+	width: 100px;
+	background-color: #88a456;
+	box-shadow: 2px 2px black;
+	margin-left: 20px;
+	color: #fff;
+	text-align: center;
+	padding: 8px;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+#footer{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	background-color: #bcd4b9;
+	margin-top: 20px;
+}
+
+#footerNav{
+	margin-left: 0 auto;
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+}
+
+#footerNav ul{
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#footerNav ul li a{
+	display: block;
+	width: 100px;
+	background-color: #88a456;
+	box-shadow: 2px 2px black;
+	margin-left: 20px;
+	color: #fff;
+	text-align: center;
+	padding: 8px;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+#copyright{
+	width: 400px;
+	height: 30px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	font-family: 'Oswald', sans-serif;
 }
 
 #fullSeperator{
@@ -45,6 +130,42 @@
 	height: 1px;
 	background-color: black;
 	margin-bottom: 20px;
+}
+
+/* <------------INDEX.HTML     HOME PAGE--------------------> */
+#welcome{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 34px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+#heroImage{
+	background-image: url("../images/hero_image.jpg");
+	height: 500px;
+	background-position: center;
+	margin-top: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#heroText{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
 }
 
 /* Start of Contact Page */
@@ -212,29 +333,21 @@
 
 /* End of Contact Page */
 
-#footer{
+/* #footer{
 	display: flex;
 	flex-direction: column;
 
-}
+} */
 
-#footerNav{
+/* #footerNav{
 	width: 515px;
 	height: 45px;
 	background-color: black;
 	margin-top: 40px;
 	margin: 0 auto;
 	margin-bottom: 20px;
-}
+} */
 
-#copyright{
-	width: 150px;
-	height: 30px;
-	background-color: black;
-	margin: 0 auto;
-	margin-bottom: 20px;
-
-}
 #fishAnimation{
 	width: 270px;
 	height: 50px;
@@ -248,7 +361,8 @@
 #title{
 	height: 50px;
 	width: 300px;
-	background-color: black;
+	color: grey;
+	font-family: 'Oswald', sans-serif;
 	margin: 0 auto;
 	margin-bottom: 20px;
 }
