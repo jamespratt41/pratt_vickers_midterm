@@ -263,7 +263,6 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 }
 #salmonProj{
 	width: 600px;
-	height: 300px;
 }
 
 #projectImg1 img{
@@ -286,7 +285,6 @@ border-radius: 10px;
 
 #troutProj{
 	width: 600px;
-	height: 300px;
 }
 
 #archiveProj{
@@ -416,11 +414,12 @@ font-size: 14px;
 	margin-right: 100px;
 }
 
-#mapText{
-	width: 350px;
-	height: 100px;
-	background-color: black;
-	margin: 0 auto;
+#mapText p{
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	margin: 0;
+
 	margin-bottom: 10px;
 	margin-left: 0;
 
@@ -429,45 +428,38 @@ font-size: 14px;
 #map{
 	width: 550px;
 	height: 300px;
-	background-color: black;
 	margin-top: 20px;
 	margin: 0 auto;
 }
 
-#mailWarning{
-	width: 600px;
-	height: 25px;
-	background-color: black;
-	margin-left: auto;
+#mailWarning p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	text-align: right;
 	margin-bottom: 20px;
 	margin-right: 100px;
 }
 
 #meeting{
+	text-align: center;
 
 }
 
-#meetingTitle{
-	width: 500px;
-	height: 30px;
-	background-color: black;
-	margin: 0 auto;
-	margin-bottom: 10px;
+#meetingTitle p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 35px;
+	margin-bottom: 20px;
 }
 
-#meetingGuests{
-	width: 200px;
-	height: 25px;
-	background-color: black;
-	margin: 0 auto;
-	margin-bottom: 10px;
+#meetingGuests p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	margin-bottom: 20px;
 }
 
-#meetingText{
-	width: 830px;
-	height: 130px;
-	background-color: black;
-	margin: 0 auto;
+#meetingText p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
 	margin-bottom: 20px;
 }
 
