@@ -234,18 +234,76 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	border-radius: 10px;
+	margin-bottom: 20px;
 }
 
 #heroText{
 	position: absolute;
-	top: 50%;
+	top: 87.5%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	overflow: hidden;
 	text-align: center;
-	color: white;
 	font-weight: bold;
+	color: white;
 	font-family: 'Oswald', sans-serif;
+	background-color: black;
+	opacity: .5;
+	width: 1120px;
+	padding-bottom: 40px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+#meetingContent{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-right: 80px;
+	margin-left: 80px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#meetingContent p{
+	margin-top: 15px;
+	text-align: left;
+	line-height: 25px;
+}
+
+#meetingContent img{
+	border-radius: 10px;
+}
+
+#contentBody1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+	margin: 20px 80px 20px 80px;
+}
+
+#contentBody2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	margin: 20px 120px 20px 120px;
+}
+
+#contentBody2 p{
+	margin-bottom: 10px;
+}
+
+#contentBox2{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 350px;
+	height: 700px;
+	border-radius: 10px;
+	background-color: #88a456;
 }
 
 /* <-------------- Start of About ---------------> */
@@ -351,9 +409,45 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	text-align: center;
+	line-height: 25px;
+	margin-left: 300px;
+	margin-right: 200px;
 }
 
+#positions h4{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+#positions p{
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+#volunteers{
+	display: flex;
+	flex-direction: column;
+	column-count: 2;
+	justify-content: flex-start;
+	text-align: center;
+}
+
+#volunteerSplit{
+	display: flex;
+	flex-direction: row;
+	column-count: 2;
+	justify-content: flex-start;
+}
 /* <-------------- End of About ---------------> */
+
+
+
+
+
+
 
 /* <-------- Start of Projects -------------> */
 #projectsIntro{
@@ -401,6 +495,10 @@ border-radius: 10px;
 	margin-bottom: 20px;
 }
 /* <-------- END of Projects -------------> */
+
+
+
+
 
 
 /* Start of Contact Page */
