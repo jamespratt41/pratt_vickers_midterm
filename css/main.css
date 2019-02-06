@@ -105,6 +105,9 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	text-align: left;
 }
 
+::placeholder{
+	color:#D8AE58;
+}
 #mainNav ul{
 	text-transform: uppercase;
 	display: flex;
@@ -189,7 +192,7 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	height: 1px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	background-color: black;
+	background-color: #D8AE58;
 	width: 80%;
 	margin: 0 auto;
 }
@@ -259,11 +262,13 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	flex-direction: row;
 	justify-content: center;
 	margin-top: 20px;
+	margin-bottom: 40px
 }
 
 #aboutDesc1{
+	margin-top: 20px;
 	width: 600px;
-	height: 300px;
+
 }
 
 #aboutImg1 img{
@@ -276,17 +281,78 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	flex-direction: row;
 	justify-content: center;
 	border-radius: 10px;
+	margin-bottom: 20px;
 }
 
 #aboutDesc2{
+	margin-top: 20px;
 	width: 600px;
-	height: 300px;
+
 }
 
 #aboutImg2 img{
 	flex-direction: row;
 	border-radius: 10px;
 }
+
+#businesses1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	margin-left: 80px;
+	margin-right: 80px;
+	justify-content: space-between;
+}
+
+#businesses2{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	margin-left: 250px;
+	margin-right: 250px;
+	justify-content: space-between;
+}
+
+#contentBox{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 350px;
+	height: 500px;
+	border-radius: 10px;
+	background-color: #88a456;
+}
+
+#contentBox p{
+	margin-top: 20px;
+	line-height: 22px;
+}
+#contentBox img{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	height: 100px;
+
+}
+
+.businessLogo{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: 50px;
+	width: 90px;
+}
+
+#positions{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 /* <-------------- End of About ---------------> */
 
 /* <-------- Start of Projects -------------> */
@@ -302,6 +368,7 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	margin-bottom: 40px;
 }
 #salmonProj{
 	width: 600px;
@@ -489,6 +556,7 @@ font-size: 14px;
 #meetingTitle p{
 	font-family: 'Oswald', sans-serif;
 	font-size: 35px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
