@@ -207,6 +207,8 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	margin: 0 auto;
 	margin-bottom: 20px;
 	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 #fullSeperator{
@@ -219,11 +221,12 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 
 #contentBreak{
 	height: 1px;
+	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	background-color: #D8AE58;
 	width: 80%;
-	margin: 0 auto;
+
 }
 
 
@@ -584,6 +587,17 @@ border-radius: 10px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+#contactText p{
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 25px;
+}
+
+#hearTRAA{
+	margin-top: 5px;
+	font-weight:bold;
+	font-family: 'Open Sans', sans-serif;
+}
 
 #contactArea{
 	display:flex;
@@ -795,3 +809,55 @@ font-size: 14px;
 }
 
 /* END OF Newsletters */
+
+
+/* Start of Links Page */
+
+a:link{
+	color: #88a456;
+}
+
+a:visited{
+	color: #88a456;
+}
+
+a:hover{
+	color: #D8AE58;
+}
+
+#badJoke{
+font-family: 'Oswald', sans-serif;
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+margin-top: 15px;
+margin-bottom: 20px;
+}
+
+#linkType1{
+	text-align: center;
+	background-color: #bcd4b9;
+	margin-top: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 20px;
+}
+
+#linkType2{
+	text-align: center;
+	margin-top: 20px;
+	padding-left: 70px;
+	padding-right: 70px;
+	padding-bottom: 20px;
+}
+
+#linkTitle{
+	font-size: 30px;
+	font-weight: normal;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+#linkText{
+	margin-bottom: 10px;
+}
