@@ -127,12 +127,28 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	border-radius: 10px;
 }
 
-#Welcome{
-	font-size: 55px;
-	font-family: 'Oswald', sans-serif;
+#mainNav ul li a:hover{
+	display: block;
+	width: 100px;
+	background-color: #D8AE58;
+	box-shadow: 2px 2px black;
+	margin-left: 20px;
+	color: #fff;
 	text-align: center;
+	padding: 8px;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+#welcome h2{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 #footer{
@@ -163,6 +179,19 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	display: block;
 	width: 100px;
 	background-color: #88a456;
+	box-shadow: 2px 2px black;
+	margin-left: 20px;
+	color: #fff;
+	text-align: center;
+	padding: 8px;
+	font-size: 16px;
+	border-radius: 10px;
+}
+
+#footerNav ul li a:hover{
+	display: block;
+	width: 100px;
+	background-color: #D8AE58;
 	box-shadow: 2px 2px black;
 	margin-left: 20px;
 	color: #fff;
@@ -213,16 +242,7 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 }
 
 /* <------------INDEX.HTML     HOME PAGE--------------------> */
-#welcome{
-	display:flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	font-family: 'Oswald', sans-serif;
-	font-size: 34px;
-	margin-top: 20px;
-	padding-bottom: 20px;
-}
+
 
 #heroImage{
 	background-image: url("../images/hero_image.jpg");
@@ -296,6 +316,20 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	margin-bottom: 10px;
 }
 
+#displayBox{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 350px;
+	height: 500px;
+	border-radius: 10px;
+	background-color: #88a456;
+}
+
+#displayBox img{
+	margin-bottom: 20px;
+}
+
 #contentBox2{
 	display: flex;
 	flex-direction: column;
@@ -305,6 +339,29 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	border-radius: 10px;
 	background-color: #88a456;
 }
+
+#contentBox2 img{
+	margin: 0 auto;
+	width: 250px;
+	height: 150px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+#contentBox2 p{
+	font-size: 14px;
+}
+#merch img{
+	height: 200px;
+	width: 200px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+/* <-------------- End of Index.Html Home ----------> */
+
+
+
 
 /* <-------------- Start of About ---------------> */
 #intro{
@@ -380,7 +437,7 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	flex-direction: column;
 	justify-content: flex-start;
 	width: 350px;
-	height: 500px;
+	height: 450px;
 	border-radius: 10px;
 	background-color: #88a456;
 }
@@ -691,45 +748,38 @@ font-size: 14px;
 #intro{
 	display: flex;
 	flex-direction: column;
-
 }
 
 #introH2{
 	width: 570px;
-	height: 40px;
-	background-color: black;
 	margin: 0 auto;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
-#introP{
-	width: 410px;
-	height: 230px;
-	background-color: black;
+#introP p{
+
+	width: 960px;
 	margin: 0 auto;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 #archive{
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-
+	flex-direction: column;
+	justify-content: center;
 }
 
-#archiveH2{
-	width: 580px;
-	height: 70px;
-	background-color: black;
-	margin: 0 auto;
-	margin-bottom: 20px;
+#newsletters{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 #boxLeft{
 	width: 400px;
-	height: 440px;
-	background-color: black;
+	height: 500px;
+	background-color: #88a456;
+	border-radius: 10px;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	margin-left: 10px;
@@ -737,10 +787,10 @@ font-size: 14px;
 
 #boxRight{
 	width: 400px;
-	height: 440px;
-	background-color: black;
+	height: 500px;
+	background-color: #88a456;
+	border-radius: 10px;
 	margin: 0 auto;
-	margin-bottom: 20px;
 	margin-right: 10px
 }
 
