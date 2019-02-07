@@ -140,12 +140,15 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	border-radius: 10px;
 }
 
-#Welcome{
-	font-size: 55px;
+#welcome h2{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 	font-family: 'Oswald', sans-serif;
-	text-align: center;
+	font-size: 40px;
 	margin-top: 20px;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 #footer{
@@ -239,16 +242,7 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 }
 
 /* <------------INDEX.HTML     HOME PAGE--------------------> */
-#welcome{
-	display:flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	font-family: 'Oswald', sans-serif;
-	font-size: 34px;
-	margin-top: 20px;
-	padding-bottom: 20px;
-}
+
 
 #heroImage{
 	background-image: url("../images/hero_image.jpg");
@@ -754,45 +748,38 @@ font-size: 14px;
 #intro{
 	display: flex;
 	flex-direction: column;
-
 }
 
 #introH2{
 	width: 570px;
-	height: 40px;
-	background-color: black;
 	margin: 0 auto;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
-#introP{
-	width: 410px;
-	height: 230px;
-	background-color: black;
+#introP p{
+
+	width: 960px;
 	margin: 0 auto;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 #archive{
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-
+	flex-direction: column;
+	justify-content: center;
 }
 
-#archiveH2{
-	width: 580px;
-	height: 70px;
-	background-color: black;
-	margin: 0 auto;
-	margin-bottom: 20px;
+#newsletters{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 #boxLeft{
 	width: 400px;
-	height: 440px;
-	background-color: black;
+	height: 500px;
+	background-color: #88a456;
+	border-radius: 10px;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	margin-left: 10px;
@@ -800,10 +787,10 @@ font-size: 14px;
 
 #boxRight{
 	width: 400px;
-	height: 440px;
-	background-color: black;
+	height: 500px;
+	background-color: #88a456;
+	border-radius: 10px;
 	margin: 0 auto;
-	margin-bottom: 20px;
 	margin-right: 10px
 }
 
