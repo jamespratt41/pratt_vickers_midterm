@@ -52,7 +52,6 @@ h3{
 }
 
 
-
 /*
 Fonts for titles - font-family: 'Oswald', sans-serif;
 Fonts for copy - font-family: 'Open Sans', sans-serif; */
@@ -838,23 +837,71 @@ font-size: 14px;
 	justify-content: space-around;
 }
 
-#boxLeft{
+#boxRight{
+	display: flex;
+	flex-direction: column;
 	width: 400px;
-	height: 500px;
-	background-color: #88a456;
-	border-radius: 10px;
+	height: 350px;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	margin-left: 10px;
+	border-radius: 10px;
+	background: #88a456;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #88a456, #dee6b6);
+	background: linear-gradient(to top, #88a456, #dee6b6);
+	box-shadow: 5px 5px  15px black;
 }
 
-#boxRight{
+#newslettersRight{
+	margin-top: 10px;
+	column-count: 2;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	line-height: 28px;
+}
+
+#newslettersLeft{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	line-height: 45px;
+}
+
+#boxLeft{
 	width: 400px;
-	height: 500px;
-	background-color: #88a456;
-	border-radius: 10px;
+	height: 350px;
 	margin: 0 auto;
-	margin-right: 10px
+	margin-right: 10px;
+	border-radius: 10px;
+	background: #88a456;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #88a456, #dee6b6);
+	background: linear-gradient(to top, #88a456, #dee6b6);
+	box-shadow: 5px 5px  15px black;
+}
+
+#newslettersRight h4 a:link{
+	color: #000;
+}
+
+#newslettersRight h4 a:visited{
+	color: #000;
+}
+
+#newslettersRight h4 a:hover{
+	color: #D8AE58;
+}
+
+#newslettersLeft h4 a:link{
+	color: #000;
+}
+
+#newslettersLeft h4 a:visited{
+	color: #000;
+}
+
+#newslettersLeft h4 a:hover{
+	color: #D8AE58;
 }
 
 /* END OF Newsletters */
