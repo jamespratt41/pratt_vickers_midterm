@@ -812,6 +812,25 @@ font-size: 14px;
 	margin-bottom: 20px;
 }
 
+#facebook a img{
+	width:100px;
+	height:100px;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+@keyframes facebook {
+	from{opacity:1}
+	to{opacity: 0.7}
+}
+
+#facebook a img:hover{
+	animation-name: facebook;
+	animation-duration: 1s;
+}
+
+
 /* End of Contact Page */
 
 
