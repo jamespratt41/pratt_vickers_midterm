@@ -117,7 +117,7 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	display: block;
 	width: 100px;
 	background: #093028;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #88a456, #dee6b6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #88a456, #dee6b6);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to top, #88a456, #dee6b6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	box-shadow: 2px 2px 5px black;
 	margin-left: 20px;
@@ -161,7 +161,7 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 }
 
 #footerNav{
-	margin-left: 0 auto;
+	margin-left: 0;
 	display: flex;
 	flex-direction: column;
 	margin-top: 40px;
@@ -181,7 +181,7 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	width: 100px;
 	/* background-color: #88a456; */
 	background: #093028;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #88a456, #dee6b6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #88a456, #dee6b6);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to top, #88a456, #dee6b6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	box-shadow: 2px 2px 5px black;
@@ -244,6 +244,19 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	height: 50px;
 	margin: 0 auto;
 	margin-bottom: 20px;
+}
+
+
+/* ANIMATIONS */
+
+@keyframes logoOpacity{
+	from {opacity: 0.0;}
+	to {opacity: 1}
+}
+
+#logo{
+	animation-name: logoOpacity;
+	animation-duration: 5s;
 }
 
 /* <------------INDEX.HTML     HOME PAGE--------------------> */
@@ -329,7 +342,7 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	height: 500px;
 	border-radius: 10px;
 	background: #88a456;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #88a456, #dee6b6);
+	background: linear-gradient(to top, #88a456, #dee6b6);
 	background: linear-gradient(to top, #88a456, #dee6b6);
 	box-shadow: 5px 5px  15px black;
 }
@@ -346,7 +359,7 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	height: 700px;
 	border-radius: 10px;
 	background: #88a456;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #88a456, #dee6b6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #88a456, #dee6b6);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to top, #88a456, #dee6b6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	box-shadow: 5px 5px  15px black;
@@ -452,7 +465,7 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	height: 450px;
 	border-radius: 10px;
 	background: #88a456;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #88a456, #dee6b6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #88a456, #dee6b6);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to top, #88a456, #dee6b6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	box-shadow: 5px 5px  15px black;
 }
@@ -480,7 +493,7 @@ Fonts for copy - font-family: 'Open Sans', sans-serif; */
 	height: 450px;
 	border-radius: 10px;
 	background: #88a456;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #88a456, #dee6b6);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #88a456, #dee6b6);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to top, #88a456, #dee6b6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	box-shadow: 5px 5px  15px black;
 }
@@ -675,7 +688,6 @@ border-radius: 10px;
 
 form input{
 border-radius: 3px;
-padding: none;
 border-style: none;
 border: 1px solid #88a456;
 font-family: 'Oswald', sans-serif;
@@ -766,8 +778,6 @@ font-size: 14px;
 	margin-top: 20px;
 	margin: 0 auto;
 	border-radius: 10px;
-	-webkit-mask-border-radius:10px;
-	-webkit-border-radius:10px;
 }
 
 #mailWarning p{
@@ -860,7 +870,7 @@ font-size: 14px;
 	margin-left: 10px;
 	border-radius: 10px;
 	background: #88a456;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #88a456, #dee6b6);
+	background: linear-gradient(to top, #88a456, #dee6b6);
 	background: linear-gradient(to top, #88a456, #dee6b6);
 	box-shadow: 5px 5px  15px black;
 }
@@ -888,7 +898,7 @@ font-size: 14px;
 	margin-right: 10px;
 	border-radius: 10px;
 	background: #88a456;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #88a456, #dee6b6);
+	background: linear-gradient(to top, #88a456, #dee6b6);
 	background: linear-gradient(to top, #88a456, #dee6b6);
 	box-shadow: 5px 5px  15px black;
 }
